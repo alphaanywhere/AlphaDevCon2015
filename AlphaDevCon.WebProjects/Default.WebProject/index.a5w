@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+
+
+<%a5
+Delete tmpl_CRUISESPEAKERS
+DIM tmpl_CRUISESPEAKERS as P
+tmpl_CRUISESPEAKERS = a5w_load_component("cruisespeakers") ''SYSTEM GENERATED COMMENT - PLEASE DO NOT REMOVE (LOAD:cruisespeakers)
+
+'Override settings start -----------------------------------------
+with tmpl_CRUISESPEAKERS
+.alias = "CRUISESPEAKERS"
+_dialogFilename = "cruisespeakers"
+end with 
+'Override settings end -----------------------------------------
+
+delete x_CRUISESPEAKERS
+dim x_CRUISESPEAKERS as p
+x_CRUISESPEAKERS = a5w_run_Component(tmpl_CRUISESPEAKERS) 'SYSTEM GENERATED COMMENT - PLEASE DO NOT REMOVE (RUN:tmpl) (EDIT:cruisespeakers)
+
+?x_CRUISESPEAKERS.Output.Head.JavaScript
+?x_CRUISESPEAKERS.Output.Head.CSS_Link
+
+?x_CRUISESPEAKERS.Output.Head.Title 
+%>
+
+
+<!--Alpha Five Temporary Code Start - Will be automatically removed when page is published -->
+<!--CSS for tmpl -->
+<link rel="stylesheet" type="text/css" href="file:///C:/Program Files (x86)/a5V12/css/iOS/style.css">
+<!--Alpha Five Temporary Code End -->
+
+
+<meta name="generator" content="Alpha Anywhere HTML Editor Version 12 Build 2689-4440">
+<!-- must use in order to make XP Themes render -->
+<meta HTTP-EQUIV="MSThemeCompatible" content="Yes" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+
+<title></title>
+</head>
+<body>
+<p>&nbsp;</p>
+<%a5 ?x_CRUISESPEAKERS.Output.Body.Dialog2_HTML %>
+
+</body></html>

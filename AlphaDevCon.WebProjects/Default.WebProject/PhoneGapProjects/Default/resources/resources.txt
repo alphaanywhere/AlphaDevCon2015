@@ -1,0 +1,24 @@
+{
+	"_id": "1460364",
+	"_icon": "C:\\Program Files (x86)\\a5V12\\PhoneGap\\appIcons\\app-icon-1024x1024.png",
+	"_ssL": "C:\\Users\\Chr\\Desktop\\AlphaDevConImages\\screen-xxhdpi-landscape.png",
+	"_ssP": "C:\\Users\\Chr\\Desktop\\AlphaDevConImages\\screen-xxhdpi-portrait.png",
+	"_initialUxComponent": "cruisespeakers",
+	"_componentLastUpdated": "05/28/2015 06:22:07 28 am",
+	"_ajaxUrl": "",
+	"_additionalFiles": "AlphaDevCon2015.accdb",
+	"_userName": "osLnGM4pUcQ=",
+	"_pw": "c5JMXi9Y+Ko=",
+	"_token": "",
+	"timeout": {
+		"phoneGapBuild": "<default>",
+		"phoneGapBuildLogin": "<default>",
+		"getAppIcon": "<default>"
+	},
+	"apperian": {
+		"enableOptions": false,
+		"loginName": "osLnGM4pUcQ=",
+		"password": "c5JMXi9Y+Ko=",
+		"serverURL": "https://easesvc.apperian.com/ease.interface.php"
+	}
+}
