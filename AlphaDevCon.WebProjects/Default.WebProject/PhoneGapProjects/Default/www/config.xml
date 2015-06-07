@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="" version="1.3.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.alphasoftware.alphadevcon2015" version="1.4.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Alpha Dev Con</name>
     <description>
         An Alpha Anywhere PhoneGap App
     </description>
-    <author email="" href="">
+    <author email="chris.martin@alphasoftware.com" href="">
         Christopher Martin
     </author>
     <feature name="http://api.phonegap.com/1.0/device" />
@@ -94,4 +94,5 @@
 	<gap:plugin name="nl.x-services.plugins.calendar" />
 	<gap:plugin name="com.phonegap.plugins.pushplugin" />
 	<gap:plugin name="org.apache.cordova.device" />
+	<gap:platform name="ios" />
 </widget>
