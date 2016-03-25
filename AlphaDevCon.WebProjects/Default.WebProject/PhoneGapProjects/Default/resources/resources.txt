@@ -4,11 +4,11 @@
 	"_ssL": "C:\\Users\\Chr\\Desktop\\AlphaDevConImages\\screen-xxhdpi-landscape.png",
 	"_ssP": "C:\\Users\\Chr\\Desktop\\AlphaDevConImages\\screen-xxhdpi-portrait.png",
 	"_initialUxComponent": "cruisespeakers",
-	"_componentLastUpdated": "06/02/2015 01:51:49 26 pm",
+	"_componentLastUpdated": "10/06/2015 06:20:52 00 pm",
 	"_ajaxUrl": "http://184.172.7.167/AlphaDevCon/",
 	"_additionalFiles": "AlphaDevCon2015.accdb",
-	"_userName": "b3KSb+c5Npw8EjCnxcoWJYhxnBynTItjJIu8njlLWOk=",
-	"_pw": "VvTbpFoKnVSg16PCjZCx8Q==",
+	"_userName": "+Rs3PT/VFjU+f81D24Ll8A==",
+	"_pw": "ORErE3wFvqqbW+5ywImSqQ==",
 	"_token": "",
 	"timeout": {
 		"phoneGapBuild": "<default>",
@@ -20,5 +20,6 @@
 		"loginName": "osLnGM4pUcQ=",
 		"password": "c5JMXi9Y+Ko=",
 		"serverURL": "https://easesvc.apperian.com/ease.interface.php"
-	}
+	},
+	"indexHTMLMetaTags": ""
 }
